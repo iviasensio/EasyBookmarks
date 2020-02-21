@@ -1,0 +1,15 @@
+<lui-dialog id = "deleteid" style="max-width: 450px;">
+  <lui-dialog-header>
+    <lui-dialog-title>Confirm delete</lui-dialog-title>
+  </lui-dialog-header>
+  <lui-dialog-body>
+        
+    <div style="margin-top: 5px">
+      {{text}}
+    </div>
+  </lui-dialog-body>
+  <lui-dialog-footer>
+    <button class="lui-button  lui-dialog__footer-button" ng-click="close();">Close</button>
+    <button class="lui-button  lui-dialog__footer-button" ng-click="delete();close();" ngFocus>Confirm</button>
+  </lui-dialog-footer>
+</lui-dialog>

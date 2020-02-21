@@ -1,0 +1,12 @@
+{
+	"name" : "Easy Bookmarks",
+	"description" : "Simple bookmarks manager, specially useful for easy access in mashups",
+	"icon" : "extension",
+	"type" : "visualization",
+	"icon": "bookmark",
+	"version" : "1.0.0",
+	"author" : "Ivan Felipe ife@qlik.com",
+	"keywords" : "qlik-sense, visualization-extension, extension, visualization",
+	"license" : "mit",
+	"dependencies" : { "qlik-sense" : ">=3.2.0" }
+}

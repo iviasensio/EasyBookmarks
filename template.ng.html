@@ -1,0 +1,19 @@
+<div qv-extension>
+	<div class="lui-input-group">	  	
+		<select ng-change="verifyOwner()" name="repeatSelect" id="repeatSelect" ng-model="selectedBookmark">			
+      		<option ng-style="{ 'font-weight' : ({{bookmark.qMeta.published + 1}} == 2) ? 'bold' : 'normal' }" ng-repeat="bookmark in bookmarks" value="{{bookmark.qInfo.qId}}" title="{{bookmark.qMeta.description}}" name = "{{bookmark.qMeta.published}}">{{bookmark.qData.title}}</option>
+    	</select>
+		
+		<button id = "delId" class="lui-button lui-buttongroup__button" ng-click="deleteDialog()" ng-disabled = true>
+			<span class = "lui-icon lui-icon--minus" title="Delete my bookmarks"></span>
+		</button>
+
+		<button class="lui-button lui-buttongroup__button" ng-click="openDialog()">
+			<span class = "lui-icon lui-icon--plus" title="Add new bookmark"></span>
+		</button>  					
+	    
+	    <button class="lui-button lui-buttongroup__button sel-toolbar-btn sel-toolbar-confirm" ng-click="alertValue();defaultSelect();">
+			<span class = "lui-icon lui-icon--tick" title="Confirm bookmark"></span>
+		</button>  	
+  	</div>
+</div>

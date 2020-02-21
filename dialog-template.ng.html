@@ -1,0 +1,18 @@
+<lui-dialog id = "dialogid" style="max-width: 450px;">
+  <lui-dialog-header>
+    <lui-dialog-title>Type a name</lui-dialog-title>
+  </lui-dialog-header>
+  <lui-dialog-body>    
+
+    <div style="margin-top: 10px">
+      <input id = "name" class="lui-input" ng-model="name" style="margin-bottom: 5px;" autofocus placeholder = "Type a name"/>
+      <br>
+      <input id = "description" class="lui-input" ng-model="description" style="margin-bottom: 5px;" autofocus placeholder = "Type a description"/>
+    </div>
+    
+  </lui-dialog-body>
+  <lui-dialog-footer>
+    <button class="lui-button  lui-dialog__footer-button" ng-click="close();">Close</button>
+    <button class="lui-button  lui-dialog__footer-button" ng-click="create();close();" autofocus>Accept</button>
+  </lui-dialog-footer>
+</lui-dialog>
