@@ -2,9 +2,9 @@
 Author:Ivan Felipe ivan.felipe@qlik.com
 QlikTech Iberia,s.l.
 
-Qlik Sense Extension for creating/updating a master measure
+Qlik Sense Extension for apply/create/delete bookmarks
 
-It's very useful to keep bookmarks features in mashups, avoiding the use of APIs.
+It's useful for mashups, avoiding the use of APIs.
 
 This extension is provided 'as is' and may stop working at any time (i.e. when changes are made to the Qlik Sense APIs).
 
