@@ -52,7 +52,7 @@ function ( qlik, template, dialogTemplate, deleteTemplate, $q) {
 		    	
 		    	var vPub = $('#repeatSelect').find('option:selected').attr("name");
 		    	
-		    	if(vPub == 'false'){
+		    	if(!vPub || vPub == 'false'){
 			 		 $('#delId').prop('disabled', false);			 		 
 			 	}else{
 			 		$('#delId').prop('disabled', true);			 		
