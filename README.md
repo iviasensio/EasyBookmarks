@@ -24,4 +24,4 @@ Studying Features:
   <li>Sharing private bookmarks</li>
 </UL>
 
-![alt tag](https://github.com/iviasensio/Guides/blob/master/EasyBookmarks/EasyBookmarks.png)
+![EasyBookmarks](https://user-images.githubusercontent.com/11334576/154759848-73b23719-49dc-4ab3-8ed1-d7bae6caa4bb.png)
